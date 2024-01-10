@@ -1,0 +1,101 @@
+.news-main {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+
+    .product-title {
+        
+        p {
+            color: #777777;
+            font-size: 15px;.news {
+        width: 350px;
+        height: 500px;
+
+        .admin-comment {
+            display: flex;
+            justify-content: start;
+            gap: 30px;
+        }
+
+        h5 {
+            font-size: 20px;
+            font-family: "Oswald", sans-serif;
+            color: #222222;
+        }
+
+        p {
+            font-size: 15px;
+            color: #777777;
+        }
+    }
+        }
+    
+        h2 {
+            font-size: 36px;
+            font-family: 'Oswald', sans-serif;
+    
+            span {
+                font-size: 36px;
+                font-family: 'Oswald', sans-serif;
+                border-bottom: 3px solid #384aed ;
+            }
+        }
+    
+    }
+
+    .news-main-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding-top: 60px;
+
+        .news {
+            width: 350px;
+            height: 500px;
+    
+            .admin-comment {
+                display: flex;
+                justify-content: start;
+                gap: 30px;
+                margin-top: 10px;
+            }
+    
+            h5 {
+                font-size: 20px;
+                font-family: "Oswald", sans-serif;
+                color: #222222;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+    
+            p {
+                font-size: 15px;
+                color: #777777;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .read {
+                cursor: pointer;
+            }
+
+            .read:hover {
+                span {
+                    color: #384aed;
+                }
+                .arrow {
+                    
+                    transform: translateX(15px);
+                    transition: 0.6s;
+                }
+
+                .news {
+                    h5 {
+                        color: #384aed;
+                    }
+                }
+            }
+        }
+    }
+}

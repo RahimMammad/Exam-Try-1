@@ -1,0 +1,49 @@
+.discount {
+    width: 100%;
+    height: 496px;
+    background-image: url("https://preview.colorlib.com/theme/aroma/img/home/parallax-bg.png.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .discount-text {
+        position: absolute;
+        left: 300px;
+        top: 100px;
+        text-align: center;
+
+        h3 {
+            font-size: 50px;
+            font-family: "Oswald", sans-serif;
+            color: #222222;
+            font-weight: 400;
+        }
+
+        h4 {
+            font-size: 30px;
+            font-family: "Oswald", sans-serif;
+            color: #222222;
+            margin-top: 20px;
+            font-weight: 400;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 15px;
+            color: #555555;
+        }
+
+        button {
+            margin-top: 40px;
+            width: 167px;
+            height: 50px;
+            border-radius: 22px;
+            background: #384aed;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            border: none;
+        }
+    }
+}

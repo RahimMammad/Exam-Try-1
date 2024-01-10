@@ -1,0 +1,50 @@
+nav {
+    width: 100%;
+    background: #fff;
+    padding: 20px 210px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    .magnify-shop {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding-top: 5px;
+    }
+
+    .buy-now-btn {
+        width: 150px;
+        height: 46px;
+        border-radius: 18px;
+        border: 1px solid #00000027;
+        background: none;
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    nav {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    .navbar {
+        max-width: 250px;
+    }
+}

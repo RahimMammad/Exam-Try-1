@@ -1,0 +1,33 @@
+.product-main {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 150px;
+
+    .product-title {
+        
+        p {
+            color: #777777;
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-family: 'Oswald', sans-serif;
+
+            span {
+                font-size: 36px;
+                font-family: 'Oswald', sans-serif;
+                border-bottom: 3px solid #384aed ;
+            }
+        }
+
+    }
+
+    .product-main-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(255px, 1fr));
+        gap: 20px;
+        padding-top: 50px;
+    }
+}
