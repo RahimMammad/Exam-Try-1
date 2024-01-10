@@ -6,7 +6,7 @@ const WishlistProvider = ({children}) => {
     const [wishlistArr, setWishlistArr] = useState(
         localStorage.getItem("WishlistProducts") 
             ? JSON.parse(localStorage.getItem("WishlistProducts")) 
-                : null 
+                : [] 
     )
 
     useEffect(() => {

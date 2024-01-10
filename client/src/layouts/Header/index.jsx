@@ -18,7 +18,7 @@ const Header = () => {
         </ul>
         <div className='magnify-shop'>
             <HiMagnifyingGlass style={{width: "20px", height: "20px"}} />
-            <CiShoppingCart style={{width: "20px", height: "20px"}} />
+            <Link to="/basket"><CiShoppingCart style={{width: "20px", height: "20px"}} /></Link>
         </div>
         <button className='buy-now-btn'>Buy Now</button>
     </nav>

@@ -7,6 +7,7 @@ import Add from './pages/Add'
 import Detail from './pages/Detail'
 import BasketProvider from './context/BasketContext'
 import WishlistProvider from './context/WishlistContext'
+import Basket from './pages/Basket'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
               <Route index element={<Home />} />
               <Route path='/add' element={<Add />} />
               <Route path='/:id' element={<Detail />} />
+              <Route path='/basket' element={<Basket />} />
             </Route>
         </Routes>
         </WishlistProvider>

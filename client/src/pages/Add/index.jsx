@@ -1,7 +1,9 @@
 import React from 'react'
 import * as Yup from "yup"
-import useFormik from "formik"
+import {useFormik} from "formik"
 import axios from 'axios'
+import Swal from "sweetalert2"
+import "./index.scss"
 
 const Add = () => {
 
@@ -16,7 +18,7 @@ const Add = () => {
     initialValues: {
       name: "",
       category: "",
-      price: 0,
+      price: "",
       image: ""
     },
     validationSchema: validationSchema,
@@ -33,11 +35,12 @@ const Add = () => {
     }
   })
   return (
-    <form action="">
+    <form action="" onSubmit={formik.handleSubmit}>
       <input type="text" placeholder='Name' name='name' {...formik.getFieldProps("name")} />
       <input type="text" placeholder='Category' name='category' {...formik.getFieldProps("category")} />
       <input type="text" placeholder='Price' name='price' {...formik.getFieldProps("price")} />
       <input type="text" placeholder='image' name='image' {...formik.getFieldProps("image")} />
+      <button type='submit'>Add</button>
     </form>
   )
 }

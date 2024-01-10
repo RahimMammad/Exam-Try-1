@@ -1,0 +1,51 @@
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 1px solid #000;
+
+    th, td {
+        border: 1px solid black;
+    }
+    
+    td {
+        padding-left: 10px;
+
+        .delete {
+            width: 130px;
+            height: 50px;
+            border-radius: 8px;
+            border: none;
+            color: #fff;
+            background-color: red;
+            font-size: 24px;
+            padding: 5px;
+        }
+    }
+
+    .image {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    tfoot {
+        width: 100%;
+        display: flex;
+        justify-content: end; 
+
+        tr {
+            width: 100%;
+            display: flex;
+            td {
+                width: 50%;
+                height: 100%;
+            }
+        }
+    }
+
+    span {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
